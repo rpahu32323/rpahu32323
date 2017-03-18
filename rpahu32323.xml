@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name>rpahu32323</name>
+    <description>rpahu32323 overlay for personal ebuilds</description>
+    <homepage>https://github.com/rpahu323232/overlay</homepage>
+    <owner>
+      <email>rpahu32323@gmail.com</email>
+    </owner>
+    <source type="git">https://github.com/rpahu32323/overlay.git</source>
+  </repo>
+</repositories>
