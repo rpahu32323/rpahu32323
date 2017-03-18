@@ -15,4 +15,5 @@ IUSE=""
 
 src_prepare() {
 	eautoreconf
+	default
 }
