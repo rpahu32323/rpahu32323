@@ -14,7 +14,7 @@ EGIT_REPO_URI="https://github.com/libimobiledevice/libimobiledevice.git"
 
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="0/6"
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+KEYWORDS=""
 IUSE="gnutls python"
 
 RDEPEND=">=app-pda/libplist-1.10[python?,${PYTHON_USEDEP}]
