@@ -6,7 +6,7 @@ inherit autotools
 
 DESCRIPTION="A test app for playing with git, github, autotools, and ebuilds"
 HOMEPAGE="http://www.dockapps.net/wmclock"
-SRC_URI="https://github.com/rpahu32323/hello-world/archive/${PVR}.tar.gz"
+SRC_URI="https://github.com/rpahu32323/hello-world/archive/${PVR}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
