@@ -5,7 +5,7 @@ EAPI=6
 inherit autotools
 
 DESCRIPTION="A test app for playing with git, github, autotools, and ebuilds"
-HOMEPAGE="http://www.dockapps.net/wmclock"
+HOMEPAGE="https://github.com/rpahu32323/hello-world"
 SRC_URI="https://github.com/rpahu32323/hello-world/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
