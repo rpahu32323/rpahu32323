@@ -2,7 +2,7 @@
   <repo priority="50" quality="experimental" status="unofficial">
     <name>rpahu32323</name>
     <description>rpahu32323 overlay for personal ebuilds</description>
-    <homepage>https://github.com/rpahu323232/overlay</homepage>
+    <homepage>https://github.com/rpahu323232/rpahu32323-overlay</homepage>
     <owner>
       <email>rpahu32323@gmail.com</email>
     </owner>
