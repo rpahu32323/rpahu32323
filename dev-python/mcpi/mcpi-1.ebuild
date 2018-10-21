@@ -7,14 +7,14 @@ PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
 
 inherit distutils-r1
 
-DESCRIPTION="Minecraft: Pi edition API Python Library"
-HOMEPAGE="https://github.com/martinohanlon/mcpi"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+DESCRIPTION="Minecraft: Pi edition API Python Library with changes by rpahu32323"
+HOMEPAGE="https://github.com/rpahu32323/mcpi"
+SRC_URI="https://github.com/rpahu32323/mcpi/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-1"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
-RDEPEND=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="${DEPEND}"

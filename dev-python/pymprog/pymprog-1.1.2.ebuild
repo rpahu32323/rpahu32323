@@ -11,7 +11,7 @@ DESCRIPTION="An easy and flexible mathematical programming environment for Pytho
 HOMEPAGE="https://pymprog.sourceforge.net"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-1"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
