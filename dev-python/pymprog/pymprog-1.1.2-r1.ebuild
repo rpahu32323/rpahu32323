@@ -17,5 +17,3 @@ KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
 RDEPEND="dev-python/swiglpk"
-DEPEND="${DEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]"

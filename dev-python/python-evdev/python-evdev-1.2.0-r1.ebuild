@@ -15,8 +15,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-
 python_compile() {
 	distutils-r1_python_compile build_ecodes \
 		--evdev-headers \
