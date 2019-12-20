@@ -6,6 +6,8 @@ EAPI=7
 PYTHON_COMPAT=( python3_{5,6,7} )
 PYTHON_REQ_USE="threads(+)"
 
+DISTUTILS_USE_SETUPTOOLS=rdepend
+
 inherit distutils-r1
 
 DESCRIPTION="Jupyter protocol implementation and client libraries"
