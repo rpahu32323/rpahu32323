@@ -26,7 +26,7 @@ RDEPEND="
 	>=dev-python/traitlets-4.2.1[${PYTHON_USEDEP}]
 	>=dev-python/jupyter_core-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-17[${PYTHON_USEDEP}]
-	>=dev-python/jupyter_client-5.2[${PYTHON_USEDEP}]
+	>=dev-python/jupyter_client-5.3.4[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	>=dev-python/nbconvert-4.2.0[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
