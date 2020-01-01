@@ -74,7 +74,7 @@ DEPEND="${RDEPEND}
 	dev-perl/XML-Parser
 	sys-devel/libtool
 	virtual/pkgconfig
-	test? ( >=dev-cpp/gtest-1.8.0 )
+	>=dev-cpp/gtest-1.8.0
 "
 
 PDEPEND="doc? (
