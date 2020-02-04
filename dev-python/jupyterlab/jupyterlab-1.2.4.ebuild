@@ -21,4 +21,6 @@ RDEPEND="
 	www-servers/tornado
 	dev-python/jinja
 	dev-python/jupyterlab_server
+	dev-texlive/texlive-xetex
+	app-text/pandoc
 "
