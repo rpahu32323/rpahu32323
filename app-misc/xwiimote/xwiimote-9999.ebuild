@@ -5,22 +5,13 @@
 EAPI=7
 inherit eutils git-r3 autotools
 
-
-
+DESCRIPTION="Nintendo Wii Remote Linux Device Driver Tools"
+HOMEPAGE="https://github.com/dvdhrm/xwiimote"
 EGIT_REPO_URI="https://github.com/dvdhrm/xwiimote.git"
 
-DESCRIPTION="Nintendo Wii Remote Linux Device Driver Tools"
-
-HOMEPAGE="https://github.com/dvdhrm/xwiimote"
-
-SRC_URI=""
-
 LICENSE="BSD"
-
 SLOT="0"
-
 KEYWORDS="~x86 ~amd64"
-
 IUSE=""
 
 DEPEND="sys-libs/ncurses
@@ -32,6 +23,7 @@ src_prepare()
 {
 	eautoreconf
 	elibtoolize
+	eapply_user
 }
 
 src_install()
