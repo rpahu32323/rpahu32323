@@ -2,10 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=7
+inherit eutils git-r3 autotools
+
+
 
 EGIT_REPO_URI="https://github.com/dvdhrm/xwiimote.git"
-inherit eutils git-2 autotools
 
 DESCRIPTION="Nintendo Wii Remote Linux Device Driver Tools"
 
