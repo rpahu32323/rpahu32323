@@ -34,6 +34,6 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 
-PATCHES=(
-	"${FILESDIR}"/new-binutils.patch
-)
+#PATCHES=(
+#	"${FILESDIR}"/new-binutils.patch
+#)
