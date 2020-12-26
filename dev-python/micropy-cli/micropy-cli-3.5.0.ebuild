@@ -19,11 +19,11 @@ KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
 RDEPEND="
-	    dev-python/boltons
+		=dev-python/boltons-19.3.0
 		dev-python/cachier
 		dev-python/click
 		dev-python/colorama
-		dev-python/dpath
+		<dev-python/dpath-2.0.0
 		dev-python/GitPython
 		dev-python/jinja
 		dev-python/jsonschema
@@ -35,3 +35,9 @@ RDEPEND="
 		dev-python/pyminifier
 		dev-python/rshell
 "
+
+src_prepare() {
+		# copy hidden template files
+		sed -i "s/\['temp/\['template\/.*', 'temp/g" setup.py || die
+		eapply_user
+}
