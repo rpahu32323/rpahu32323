@@ -20,7 +20,7 @@ IUSE=""
 
 RDEPEND="
 	>=dev-python/requests-2.18.0
-	>=dev-python/requests-1.2.0
+	>=dev-python/requests-oauthlib-1.2.0
 	>=dev-python/python-dateutil-2.7
 	>=dev-python/pytz-2018.5
 	>=dev-python/tzlocal-1.5.0
