@@ -5,22 +5,16 @@ EAPI=7
 
 PYTHON_COMPAT=( python3_{7,8,9,10} )
 
+DISTUTILS_USE_SETUPTOOLS=no
+
 inherit distutils-r1
 
-DESCRIPTION="JupyterLab Server"
-HOMEPAGE="https://jupyter.org"
+DESCRIPTION="A library for accessing and searching dictionaries via /slashed/paths ala xpath."
+HOMEPAGE="https://github.com/iakesterson/dpath-python"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
-RDEPEND="
-	dev-python/json5
-	dev-python/jsonschema
-	dev-python/notebook
-	dev-python/jinja
-	dev-python/jupyter_server
-	dev-python/anyio
-"

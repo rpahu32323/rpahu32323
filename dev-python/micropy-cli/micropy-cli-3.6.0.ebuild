@@ -19,7 +19,7 @@ KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
 RDEPEND="
-		=dev-python/boltons-19.3.0
+		>=dev-python/boltons-19.3.0
 		dev-python/cachier
 		dev-python/click
 		dev-python/colorama

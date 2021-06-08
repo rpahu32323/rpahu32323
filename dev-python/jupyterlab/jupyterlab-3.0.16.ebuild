@@ -23,7 +23,7 @@ RDEPEND="
 	www-servers/tornado
 	dev-python/jinja
 	dev-python/jupyterlab_server
-	dev-python/jupyter-packaging
+	dev-python/jupyter_packaging
 	dev-texlive/texlive-xetex
 	app-text/pandoc
 	net-libs/nodejs

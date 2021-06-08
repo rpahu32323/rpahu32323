@@ -21,6 +21,6 @@ RDEPEND="
 	dev-python/jsonschema
 	dev-python/notebook
 	dev-python/jinja
-	dev-python/jupyter_server
-	dev-python/anyio
 "
+
+BDEPEND="dev-python/wheel"
