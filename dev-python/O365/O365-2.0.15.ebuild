@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-python/python-dateutil-2.7
 	>=dev-python/pytz-2018.5
 	>=dev-python/tzlocal-1.5.0
-	>=dev-python/beautifulsoup-4.0.0
+	>=dev-python/beautifulsoup4-4.0.0
 	>=dev-python/stringcase-1.2.0
 "
 
