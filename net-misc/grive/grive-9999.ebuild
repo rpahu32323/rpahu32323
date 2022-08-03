@@ -1,16 +1,16 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 if [[ ${PV} = *9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/vitalif/${PN}2.git"
 else
 	inherit vcs-snapshot
-	COMMIT="3c90425b8f46b62365ec3d84de628163865dbb1e"
+	COMMIT="6901fbb169eaae51acb61778760ba2ac019675ae"
 	SRC_URI="https://github.com/vitalif/${PN}2/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 fi
 
@@ -34,6 +34,4 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 
-#PATCHES=(
-#	"${FILESDIR}"/new-binutils.patch
-#)
+PATCHES=( "${FILESDIR}/363.patch" )
