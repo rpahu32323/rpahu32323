@@ -32,7 +32,7 @@ RDEPEND="
 		dev-python/requests
 		dev-python/requirements-parser
 		dev-python/tqdm
-		dev-python/pyminifier
+		dev-python/python_minifier
 		dev-python/rshell
 "
 

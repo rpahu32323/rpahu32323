@@ -9,11 +9,11 @@ DISTUTILS_USE_SETUPTOOLS=rdepend
 
 inherit distutils-r1
 
-DESCRIPTION="A Python code minifier, obfuscator, and compressor"
-HOMEPAGE="https://github.com/liftoff/pyminifier"
+DESCRIPTION="Transforms Python source code into it's most compact representation."
+HOMEPAGE="https://github.com/liftoff/python-minifier"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
