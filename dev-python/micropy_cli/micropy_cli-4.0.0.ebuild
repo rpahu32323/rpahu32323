@@ -1,9 +1,9 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python3_{7,8} )
+PYTHON_COMPAT=( python3_{9,10,11} )
 
 DISTUTILS_USE_SETUPTOOLS=rdepend
 
@@ -19,7 +19,7 @@ KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
 RDEPEND="
-		=dev-python/boltons-19.3.0
+		>=dev-python/boltons-19.3.0
 		dev-python/cachier
 		dev-python/click
 		dev-python/colorama
