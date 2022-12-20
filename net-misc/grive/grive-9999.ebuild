@@ -33,5 +33,3 @@ RDEPEND="
 	sys-libs/glibc
 "
 DEPEND="${RDEPEND}"
-
-PATCHES=( "${FILESDIR}/363.patch" )
