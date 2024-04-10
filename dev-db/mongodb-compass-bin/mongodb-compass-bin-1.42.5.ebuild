@@ -2,32 +2,33 @@
 
 EAPI=8
 
-inherit desktop unpacker xdg
-
 DESCRIPTION="The GUI for MongoDB"
 HOMEPAGE="https://mongodb.com/compass https://github.com/mongodb-js/compass"
-SRC_URI="https://github.com/mongodb-js/compass/releases/download/v${PV}/mongodb-compass_${PV}_amd64.deb"
+SRC_URI="https://github.com/mongodb-js/compass/releases/download/v${PV}/mongodb-compass-${PV}-linux-x64.tar.gz"
 
 LICENSE="SSPL-1"
 SLOT="0"
 KEYWORDS="~amd64"
 
-S="${WORKDIR}"
+S="${WORKDIR}/MongoDB Compass-linux-x64"
 
 src_install() {
-	default
 
-	insinto /usr/lib/mongodb-compass
-	doins -r usr/lib/mongodb-compass/.
+	# copies files to image directory
+	insinto /opt/mongodb/compass
+	doins -r .
 
-	domenu usr/share/applications/mongodb-compass.desktop
-	doicon usr/share/pixmaps/mongodb-compass.png
+	# make some files executable
+	fperms +x /opt/mongodb/compass/'MongoDB Compass'
+	fperms +x /opt/mongodb/compass/chrome-sandbox
+	fperms +x /opt/mongodb/compass/chrome_crashpad_handler
+	fperms +x /opt/mongodb/compass/libEGL.so
+	fperms +x /opt/mongodb/compass/libGLESv2.so
+	fperms +x /opt/mongodb/compass/libffmpeg.so
+	fperms +x /opt/mongodb/compass/libvk_swiftshader.so
+	fperms +x /opt/mongodb/compass/libvulkan.so.1
 
-	fperms +x "/usr/lib/mongodb-compass/MongoDB Compass"
-	fperms 4755 /usr/lib/mongodb-compass/chrome-sandbox
+	# add a symlink
+	dosym -r /opt/mongodb/compass/'MongoDB Compass' /usr/bin/mongodb-compass-bin
 
-	# Included binary doesn't work, make a symlink instead
-	rm usr/bin/mongodb-compass || die
-	dosym "../lib/mongodb-compass/MongoDB Compass" "usr/bin/mongodb-compass"
 }
-
