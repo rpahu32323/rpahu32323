@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9,10,11} )
+PYTHON_COMPAT=( python3_12 )
 
 DISTUTILS_USE_SETUPTOOLS=no
 
