@@ -3,17 +3,17 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9,10,11} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{12,13} )
 
 inherit distutils-r1
 
-DESCRIPTION="High level compatibility layer for multiple asynchronous event loop implementations."
-HOMEPAGE="https://github.com/agronholm/anyio"
+DESCRIPTION="Additional functionality for standard library"
+HOMEPAGE="https://github.com/mahmoud/boltons"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
-
 

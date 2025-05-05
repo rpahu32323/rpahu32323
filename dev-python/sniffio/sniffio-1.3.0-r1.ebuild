@@ -3,18 +3,18 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9,10,11} )
-
-DISTUTILS_USE_SETUPTOOLS=rdepend
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{12,13} )
 
 inherit distutils-r1
 
-DESCRIPTION="Transforms Python source code into it's most compact representation."
-HOMEPAGE="https://github.com/liftoff/python-minifier"
+DESCRIPTION="High level compatibility layer for multiple asynchronous event loop implementations."
+HOMEPAGE="https://github.com/agronholm/anyio"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
+
 
