@@ -3,13 +3,15 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12,13} )
+
+PYPI_NO_NORMALIZE=1
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="This is for projects that need to set UNO environment"
-HOMEPAGE="https://github.com/Amourspirit/python_oooenv"
+DESCRIPTION="UNO Types uno.py and unohelper.py"
+HOMEPAGE="https://github.com/Amourspirit/python-types-uno-script"
 
 LICENSE="Apache-2.0"
 SLOT="0"

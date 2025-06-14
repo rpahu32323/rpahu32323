@@ -17,6 +17,7 @@ KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
 RDEPEND="
+	dev-python/ooo-dev-tools
 	dev-python/pygments
 	dev-python/pygobject
 	dev-python/python-magic

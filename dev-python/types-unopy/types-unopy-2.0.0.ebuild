@@ -8,14 +8,14 @@ PYTHON_COMPAT=( python3_{12,13} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library for using Python with OpenOffice"
-HOMEPAGE="https://github.com/Amourspirit/python_ooo_dev_tools"
+DESCRIPTION="This project allow typings for the full LibreOffice API"
+HOMEPAGE="https://github.com/Amourspirit/python-types-unopy"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
 RDEPEND="
-	dev-python/ooouno
+	dev-python/types-uno-script
 	dev-python/typing-extensions
 "
