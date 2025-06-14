@@ -17,6 +17,7 @@ KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
 
 RDEPEND="
+	app-office/libreoffice
 	dev-python/ooo-dev-tools
 	dev-python/pygments
 	dev-python/pygobject
