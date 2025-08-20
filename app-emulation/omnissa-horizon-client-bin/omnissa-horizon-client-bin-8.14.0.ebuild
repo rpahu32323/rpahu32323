@@ -41,6 +41,7 @@ DEPEND="
 	x11-libs/cairo
 	x11-libs/gdk-pixbuf
 	x11-libs/gtk+:3
+	x11-libs/libvdpau
 	x11-libs/libX11
 	x11-libs/libxcb
 	x11-libs/libXcursor
