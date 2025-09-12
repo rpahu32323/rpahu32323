@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{12,13} )
 inherit distutils-r1
 
 DESCRIPTION="Python scripts for LHU work"
-SRC_URI="${P}.tar.gz"
+SRC_URI="http://localhost:9999/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
