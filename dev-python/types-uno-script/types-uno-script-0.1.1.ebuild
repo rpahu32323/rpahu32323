@@ -16,3 +16,5 @@ HOMEPAGE="https://github.com/Amourspirit/python-types-uno-script"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
+
+RESTRICT="mirror"

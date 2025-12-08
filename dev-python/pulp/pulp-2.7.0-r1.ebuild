@@ -19,6 +19,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
+RESTRICT="mirror"
 
 RDEPEND="dev-python/pyparsing"
 

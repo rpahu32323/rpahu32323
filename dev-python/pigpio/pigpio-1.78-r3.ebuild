@@ -14,3 +14,5 @@ HOMEPAGE="http://abyz.me.uk/rpi/pigpio/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
+
+RESTRICT="mirror"

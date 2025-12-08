@@ -15,6 +15,8 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
+RESTRICT="mirror"
+
 RDEPEND="
 	dev-python/ooouno
 	dev-python/typing-extensions
