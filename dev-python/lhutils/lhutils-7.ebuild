@@ -9,12 +9,13 @@ PYTHON_COMPAT=( python3_{12,13} )
 inherit distutils-r1
 
 DESCRIPTION="Python scripts for LHU work"
-SRC_URI="http://localhost:9999/${P}.tar.gz"
+SRC_URI="${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~hppa ~ia64 ~x86"
 IUSE=""
+RESTRICT="fetch mirror"
 
 RDEPEND="
 	app-office/libreoffice
@@ -24,3 +25,7 @@ RDEPEND="
 	dev-python/python-magic
 	dev-python/selenium
 "
+
+pkg_nofetch(){
+	ewarn "Manually add the package file to DISDIR."
+}
