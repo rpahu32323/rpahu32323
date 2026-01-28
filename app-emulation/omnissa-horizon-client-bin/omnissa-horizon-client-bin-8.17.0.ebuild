@@ -7,12 +7,12 @@ inherit xdg-utils
 
 DESCRIPTION="Omnissa Horizon View client"
 HOMEPAGE="https://docs.omnissa.com/de-DE/bundle/HorizonOverviewDeployment/page/AboutHorizon8.html"
-SRC_URI=" https://download3.omnissa.com/software/CART26FQ2_LIN_2506_TARBALL/Omnissa-Horizon-Client-Linux-2506-8.16.0-16536624989.tar.gz -> ${PF}.tar.gz"
+SRC_URI="https://download3.omnissa.com/software/CART26FQ4_LIN_2512_TARBALL/Omnissa-Horizon-Client-Linux-2512-8.17.0-20187591429.tar.gz -> ${PF}.tar.gz"
 
 RESTRICT="mirror"
 
 LICENSE="omnissa"
-SLOT="0/2506"
+SLOT="0/2512"
 KEYWORDS="~amd64"
 IUSE=""
 
