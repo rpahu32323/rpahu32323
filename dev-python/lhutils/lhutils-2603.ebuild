@@ -25,7 +25,7 @@ RDEPEND="
 	dev-python/pygobject
 	dev-python/pymprog
 	dev-python/python-magic
-	dev-python/raphidfuzz
+	dev-python/rapidfuzz
 	dev-python/selenium
 "
 
