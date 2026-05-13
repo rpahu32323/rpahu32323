@@ -4,14 +4,12 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12,13} )
+PYTHON_COMPAT=( python3_{12,13,14} )
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Simple swig bindings for the GNU Linear Programming Kit"
 HOMEPAGE="https://github.com/biosustain/swiglpk"
-#SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
-SRC_URI="https://github.com/biosustain/swiglpk/archive/${PV}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
